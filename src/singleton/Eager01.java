@@ -30,7 +30,7 @@ class Captain2 {
 	}
 }
 
-public class EagerInitializationExample {
+public class Eager01 {
 
 	public static void main(String[] args) {
 		System.out.println("*** Singleton Pattern Demo With Eager Initialization ***\n");

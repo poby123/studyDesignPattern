@@ -7,6 +7,8 @@ final class Captain {
 	private Captain() { }
 
 	// multi-thread로 동시접근하는 것을 막기 위해 synchronized 키워드를 사용한다.
+	// 다만 syncronized 키워드를 사용하면 성능이 약 100배 가량 떨어진다고 한다.
+	// 따라서 DCL방식, Enum 클래스 방식, Lazy Holder 중 하나를 쓰도록 하자.
 	public static synchronized Captain getCaptain() {
 		/*
 		 * Lazy initialization : 초기화 지연.
@@ -24,7 +26,7 @@ final class Captain {
 	}
 }
 
-public class SingletonPatternExample {
+public class LazySync02 {
 
 	public static void main(String[] args) {
 		System.out.println("*** Singleton pattern Demo ***\n");
