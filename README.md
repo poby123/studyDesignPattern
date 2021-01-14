@@ -2,10 +2,10 @@
 
 ## 목차
 ### 생성 패턴(Creational Patterns)
-1. [Singleton Pattern](./src/singleton/Singleton.md)
-2. [Prototype Pattern](./src/prototype/Prototype-Pattern.md)
-3. [Builder Pattern](./src/builder/Builder-Pattern.md)
-4. [Factory Method Pattern](./src/factoryMethod/Factory-Method-Pattern.md)
+1. [Singleton Pattern](./src/singleton/)
+2. [Prototype Pattern](./src/prototype/)
+3. [Builder Pattern](./src/builder/)
+4. [Factory Method Pattern](./src/factoryMethod/)
 
 ### 구조 패턴(Structural Patterns)
 1. [Proxy Pattern]
