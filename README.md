@@ -1,10 +1,11 @@
 # Design Patterns
 
 ### 생성 패턴(Creational Patterns)
-1. [Singleton Pattern](./src/singleton/)
-2. [Prototype Pattern](./src/prototype/)
-3. [Builder Pattern](./src/builder/)
-4. [Factory Method Pattern](./src/factoryMethod/)
+1. [Singleton Pattern](./src/singleton/) => 오직 하나의 인스턴스만 만들기.
+2. [Prototype Pattern](./src/prototype/) => 객체 복사.
+3. [Builder Pattern](./src/builder/) => 복잡한 객체 생성을 깔끔하게.
+4. [Factory Method Pattern](./src/factoryMethod/) => 인스턴스화를 하위 클래스로 미루기.
+5. [Abstract Factory Pattern]
 
 ### 구조 패턴(Structural Patterns)
 1. [Proxy Pattern]
