@@ -1,6 +1,5 @@
 # Design Patterns
 
-## 목차
 ### 생성 패턴(Creational Patterns)
 1. [Singleton Pattern](./src/singleton/)
 2. [Prototype Pattern](./src/prototype/)
