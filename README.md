@@ -1,4 +1,4 @@
-# studyDesignPattern
+# Design Patterns
 
 ## 목차
 ### 생성 패턴(Creational Patterns)
